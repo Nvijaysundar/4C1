@@ -1,0 +1,372 @@
+Contributed By- 
+Vatsa Mistry  210305126008  4C1
+
+import java.util.*;
+public class Event
+{
+    public static void main(String Arges[])
+    {
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter 1 for PIT and 2 for PIET");
+        int n=in.nextInt();
+        switch(n)
+        {
+         case 1:
+             System.out.println("Enter 1 for CSE, 2 for EEE, 3 for ECE and 4 for MECH");
+             int m=in.nextInt();
+             switch(m)
+             {
+                 case 1:
+                     System.out.println("The Specialization are CC,CS,IOT");
+                     System.out.println("Enter 1 for CC, 2 for CS, 3 for IOT ");
+                     int o=in.nextInt();
+                     
+                     switch(o)
+                     {
+                         case 1:
+                             System.out.println("Welcome to Cloud Computing");
+                             System.out.println("The events are  1 for RDBMS and 2 for SDLC");
+                             int p=in.nextInt();
+                        
+                             switch(p)
+                             {
+                                 case 1:
+                                     System.out.println("Venue- PIT ");
+                                     System.out.println("Room no. 5");
+                                     System.out.println("Block no. 12");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue PIT");
+                                     System.out.println("Room no. 10");
+                                     System.out.println("Block no. 13");
+                                     break;
+                             }
+                             break;
+                         case 2: 
+                             System.out.println("Welcome to Cyber Security");
+                             System.out.println("The events are 1 for RDBMS and 2 for SDLC");
+                             int q=in.nextInt();
+                             switch(q)
+                             {
+                                 case 1:
+                                     System.out.println("Venue-PIT");
+                                     System.out.println("Room no. 7");
+                                     System.out.println("Block no. 10");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room No. 7");
+                                     System.out.println("Block no. 11");
+                                     break;
+                             }
+                             break;
+                         case 3: 
+                             System.out.println("Welcome to Internet of things");
+                             System.out.println("The events are 1 for RDBMS and 2 for SDLC");
+                             int r=in.nextInt();
+                             switch(r)
+                             {
+                                 case 1:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room no. 233");
+                                     System.out.println("Block No. 56");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room no. 255");
+                                     System.out.println("Block No. 89");
+                                     break;
+                             }
+                             break;
+                     }
+                     break;
+                 case 2:
+                         System.out.println("Welcome To Electronics Engineering");
+                         System.out.println("1 for RDBMS and 2 for SDLC");
+                         int s=in.nextInt();
+                         switch(s)
+                         {
+                             case 1:
+                                 System.out.println("Venue- PIT");
+                                 System.out.println("Room- 69");
+                                 System.out.println("Block- 1");
+                                 break;
+                             case 2:
+                                 System.out.println("Venue- Pit");
+                                 System.out.println("Room- 70");
+                                 System.out.println("Block- 2");
+                                 break;
+                         }
+                         break;
+                 case 3:
+                         System.out.println("Welcome to Electronics and communications Dept. ");
+                         System.out.println("Enter 1 for Wires and 2 for Cables");
+                         int t=in.nextInt();
+                         switch(t)
+                         {
+                             case 1:
+                                 System.out.println("Welcome To wires");
+                                 System.out.println("Enter 1 for RDBMS and 2 for SLDC");
+                                 int u=in.nextInt();
+                                 switch(u)
+                                 {
+                                     case 1:
+                                         System.out.println("Venue- PIT");
+                                         System.out.println("Room No. 56");
+                                         System.out.println("Block No. 88");
+                                         break;
+                                     case 2:
+                                         System.out.println("Venue- PIT");
+                                         System.out.println("Room NO. 57");
+                                         System.out.println("Block No. 90");
+                                         break;
+                                 }
+                                 break;
+                             case 2: 
+                                 System.out.println("Welcome to Cables");
+                                 System.out.println("Enter 1 for RDBMS and 2 for SLDC");
+                                 int v=in.nextInt();
+                                 switch(v)
+                                 {
+                                     case 1:
+                                         System.out.println("Venue- PIT");
+                                         System.out.println("Room no- 52");
+                                         System.out.println("Block no.11");
+                                         break;
+                                         
+                                     case 2:
+                                         System.out.println("Venue- PIT");
+                                         System.out.println("Room no. 51");
+                                         System.out.println("Block no. 3");
+                                         break;
+                                 }
+                                 break;
+                         }
+                         break;
+                 case 4:
+                     System.out.println("Welcome to the Mechanical Department");
+                     System.out.println("Enter 1 for Lever and 2 for Pully");
+                     int w=in.nextInt();
+                     switch(w)
+                     {
+                         case 1:
+                             System.out.println("This is Lever ");
+                             System.out.println("Enter 1 for RDBMS and 2 for SLDC");
+                             int x=in.nextInt();
+                             switch(x)
+                             {
+                                 case 1:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room- 77");
+                                     System.out.println("Block 12");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room 91");
+                                     System.out.println("Block 20");
+                                     break;
+                             }
+                             break;
+                         case 2:
+                             System.out.println("This is Pully");
+                             System.out.println("Enter 1 for RDBMS and 2 for SLDC");
+                             int y=in.nextInt();
+                             switch(y)
+                             {
+                                 case 1:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room no. 14");
+                                     System.out.println("Block 16");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room no. 12");
+                                     System.out.println("Block no. 20");
+                                     break;
+                             }
+                             break;
+                     }
+                     break;
+                     
+             }
+             break;
+         case 2: 
+             System.out.println("Enter 1 for CSE, 2 for EEE, 3 for ECE and 4 for MECH");
+             int ma=in.nextInt();
+             switch(ma)
+             {
+                 case 1:
+                     System.out.println("The Specialization are CC,CS,IOT");
+                     System.out.println("Enter 1 for CC, 2 for CS, 3 for IOT ");
+                     int oa=in.nextInt();
+                     switch(oa)
+                     {
+                         case 1:
+                             System.out.println("Welcome to Cloud Computing");
+                             System.out.println("The events are  1 for RDBMS and 2 for SDLC");
+                             int pa=in.nextInt();
+                             switch(pa)
+                             {
+                                 case 1:
+                                     System.out.println("Venue- PIT ");
+                                     System.out.println("Room no. 130");
+                                     System.out.println("Block no. 12");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue PIT");
+                                     System.out.println("Room no. 171");
+                                     System.out.println("Block no. 13");
+                                     break;
+                             }
+                             break;
+                         case 2: 
+                             System.out.println("Welcome to Cyber Security");
+                             System.out.println("The events are 1 for RDBMS and 2 for SDLC");
+                             int qa=in.nextInt();
+                             switch(qa)
+                             {
+                                 case 1:
+                                     System.out.println("Venue-PIT");
+                                     System.out.println("Room no. 127");
+                                     System.out.println("Block no. 10");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room No. 141");
+                                     System.out.println("Block no. 11");
+                                     break;
+                             }
+                             break;
+                         case 3: 
+                             System.out.println("Welcome to Internet of things");
+                             System.out.println("The events are 1 for RDBMS and 2 for SDLC");
+                             int ra=in.nextInt();
+                             switch(ra)
+                             {
+                                 case 1:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room no. 233");
+                                     System.out.println("Block No. 56");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room no. 192");
+                                     System.out.println("Block No. 89");
+                                     break;
+                             }
+                             break;
+                     }
+                     break;
+                 case 2:
+                         System.out.println("Welcome To Electronics Engineering");
+                         System.out.println("1 for RDBMS and 2 for SDLC");
+                         int sa=in.nextInt();
+                         switch(sa)
+                         {
+                             case 1:
+                                 System.out.println("Venue- PIT");
+                                 System.out.println("Room- 132");
+                                 System.out.println("Block- 1");
+                                 break;
+                             case 2:
+                                 System.out.println("Venue- Pit");
+                                 System.out.println("Room- 112");
+                                 System.out.println("Block- 2");
+                                 break;
+                         }
+                         break;
+                 case 3:
+                         System.out.println("Welcome to Electronics and communications Dept. ");
+                         System.out.println("Enter 1 for Wires and 2 for Cables");
+                         int ta=in.nextInt();
+                         switch(ta)
+                         {
+                             case 1:
+                                 System.out.println("Welcome To wires");
+                                 System.out.println("Enter 1 for RDBMS and 2 for SLDC");
+                                 int ua=in.nextInt();
+                                 switch(ua)
+                                 {
+                                     case 1:
+                                         System.out.println("Venue- PIT");
+                                         System.out.println("Room No. 121");
+                                         System.out.println("Block No. 88");
+                                         break;
+                                     case 2:
+                                         System.out.println("Venue- PIT");
+                                         System.out.println("Room NO. 180");
+                                         System.out.println("Block No. 90");
+                                         break;
+                                 }
+                                 break;
+                             case 2: 
+                                 System.out.println("Welcome to Cables");
+                                 System.out.println("Enter 1 for RDBMS and 2 for SLDC");
+                                 int va=in.nextInt();
+                                 switch(va)
+                                 {
+                                     case 1:
+                                         System.out.println("Venue- PIT");
+                                         System.out.println("Room no- 159");
+                                         System.out.println("Block no.11");
+                                         break;
+                                     case 2:
+                                         System.out.println("Venue- PIT");
+                                         System.out.println("Room no. 160");
+                                         System.out.println("Block no. 3");
+                                         break;
+                                 }
+                                 break;
+                         }
+                         break;
+                 case 4:
+                     System.out.println("Welcome to the Mechanical Department");
+                     System.out.println("Enter 1 for Lever and 2 for Pully");
+                     int wa=in.nextInt();
+                     switch(wa)
+                     {
+                         case 1:
+                             System.out.println("This is Lever ");
+                             System.out.println("Enter 1 for RDBMS and 2 for SLDC");
+                             int xa=in.nextInt();
+                             switch(xa)
+                             {
+                                 case 1:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room- 170");
+                                     System.out.println("Block 12");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room 140");
+                                     System.out.println("Block 20");
+                                     break;
+                             }
+                             break;
+                         case 2:
+                             System.out.println("This is Pully");
+                             System.out.println("Enter 1 for RDBMS and 2 for SLDC");
+                             int ya=in.nextInt();
+                             switch(ya)
+                             {
+                                 case 1:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room no. 102");
+                                     System.out.println("Block 16");
+                                     break;
+                                 case 2:
+                                     System.out.println("Venue- PIT");
+                                     System.out.println("Room no. 120");
+                                     System.out.println("Block no. 20");
+                                     break;
+                             }
+                             break;
+                     }
+                     break;
+                     
+             }
+             break;
+        }     
+        
+    }
+}
